@@ -70,7 +70,9 @@ def run_command():
     return
   else:
     print("Running file: %s" % filename)
+    print("Standard output:\n\n--------")
     call(['./' + filename])
+    print("--------\n")
 
 # Command == 'cleanup'
 # Deletes all generated object files
@@ -119,7 +121,7 @@ choose_command = {
     },
     {
       'key': 'c',
-      'name': 'Compile a cpp file and the resulting object file',
+      'name': 'Compile a cpp source file',
       'value': 'compile'
     },
     {

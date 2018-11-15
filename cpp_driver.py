@@ -165,6 +165,7 @@ style = style_from_dict({
   Token.Object: '#e53935',
   Token.Default: '#FFFFFF'
 })
+### ---------------------------------------------------------------------- ###
 
 if __name__ == '__main__':
   main()

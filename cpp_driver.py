@@ -88,7 +88,6 @@ def cleanup_command():
       call(['rm', file])
   else:
     return
-
 ### ---------------------------------------------------------------------- ###
 
 # Switcher function
